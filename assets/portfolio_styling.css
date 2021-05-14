@@ -1,0 +1,175 @@
+
+
+
+
+:root{
+    --maincolor: #367af1;
+    --secondarycolor: white;
+    
+    --mainfont: 2.5vw;
+    --secondaryfont: 3.5vw;
+}
+
+* {
+    margin:auto;
+}
+
+p, ul {
+    color: var(--secondarycolor);
+    text-align:center;
+    font-size: var(--mainfont);
+}
+
+h3 {
+   margin:1%;
+    color: var(--secondarycolor);
+    font-size: var(--secondaryfont);
+    text-align:center;
+
+}
+
+.introduction-banner {
+    background-color: var(--maincolor);
+    opacity:80%;
+    box-shadow: 5px 10px;
+    width:100%;
+    min-height:40%;
+    
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content:center;
+    width:100%;
+    min-height:30%;
+    padding-bottom:3%;
+}
+
+.navigation-menu ul li{
+    display:inline;
+    list-style-type:none;
+    padding:0 0 10px 10px;
+}
+
+h1{
+    font-size:6vw;
+    text-align:center;
+    margin-bottom:1%;
+}
+
+
+a {                        
+    font-size: 2.75vw;
+    font-style: Arial;
+    text-decoration:none;
+    color: var(--secondarycolor);
+}
+
+.navigation-button {
+    padding-top:2.5%;
+    width:10%;
+    background-color:var(--maincolor);
+
+}
+
+.navigation-button:hover {
+    padding-top:2.5%;
+    width:10%;
+    background-color: CYAN;
+}
+
+
+.main-image img{
+    padding:1%;
+    display:flex;
+    width:80%;
+    height:70%;
+}
+
+
+img:hover{
+    padding-top:1%;
+    display:flex;
+    width:95%;
+    height:80%;
+}
+
+
+
+.middle-section {
+    padding:3%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.placeholder-box{
+    background-color:var(--maincolor);
+    border-radius: 40px;
+    opacity:95%;
+    box-shadow:5px 10px;  
+    width:40%; 
+    height:20%;
+    margin-top:2.5%;
+    margin-bottom:2.5%;
+}
+
+#project-section {  
+}
+
+#contact-section {  
+}
+
+.placeholder-box:hover{
+    opacity:50%;
+}
+
+
+
+.horizontal-content {
+    width:90%;
+    background-color:var(--maincolor);
+    box-shadow: 5px 10px;
+    margin-bottom:1%;
+    text-align:center;
+    padding:1%;
+    border-radius:40px;
+    margin-bottom:2%;
+}
+
+
+.contact-list li{
+
+    color: var(--secondarycolor);
+    font-size: var(--mainfont);
+}
+
+@media screen and (max-width: 1080px) {
+ 
+ 
+   
+    .placeholder-box{
+        margin-top:80%%;
+        margin-bottom:50%;
+      
+    }
+    
+
+@media screen and (max-width: 768px) {
+ 
+ 
+.middle-section {
+     flex-direction:column;
+    }
+
+.placeholder-box{
+    margin-top:1%;
+    margin-bottom:5%;
+    width:100%;
+    padding:5%;
+}
+
+.horizontal-content {
+    margin-bottom:5%;
+}
+
+}
