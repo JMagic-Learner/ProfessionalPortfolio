@@ -1,6 +1,18 @@
 :root{
     --maincolor: #367af1;
     --secondarycolor: white;
+    --mainfont: 2.0vw;
+}
+
+p {
+    color: var(--secondarycolor);
+    text-align:center;
+}
+
+h3 {
+    color: var(--secondarycolor);
+    font-size: var(--mainfont);
+    text-align:center;
 }
 
 .introduction-banner {
@@ -63,42 +75,60 @@ a {
     width:90%;
     height:75%;
     margin:auto;
-
 }
 
-.content{
-    width:100%;
-    display:flex;
-    flex-wrap: wrap;
+.main-image img:hover{
     padding-top:1%;
+    display:flex;
+    width:95%;
+    height:80%;
+    margin:auto;
 }
+
+
+
+.middle-section {
+    display:flex;
+    flex-wrap:wrap;
+}
+
 .placeholder-box{
     margin:auto;
-    height:500px;
-    width:30%;
     background-color:var(--maincolor);
     border-radius: 40px;
     opacity:95%;
-    box-shadow:5px 10px;
+    box-shadow:5px 10px;  
+    width:40%; 
+    height:20%;
+    padding:2%;
+}
+
+#project-section {  
+}
+
+#contact-section {  
 }
 
 .placeholder-box:hover{
     opacity:50%;
 }
 
-.content-links {
-    margin-top:15%;
-    font-size:3vw;
-    text-align:center;
-    color:var(--secondarycolor);
-}
+
 
 .horizontal-content {
     width:90%;
     background-color:var(--maincolor);
     margin:auto;
     margin-top:5%;
+    margin-bottom:5%;
     text-align:center;
     padding:2%;
     border-radius:40px;
+}
+
+
+.contact-list li{
+    margin:auto;
+    color: var(--secondarycolor);
+    font-size: var(--mainfont);
 }
