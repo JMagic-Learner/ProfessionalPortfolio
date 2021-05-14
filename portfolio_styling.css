@@ -21,19 +21,15 @@ h3 {
     box-shadow: 5px 10px;
     width:100%;
     min-height:40%;
-    margin: auto;
-    padding-bottom:1%;
- 
+    margin:auto;
 }
 
 .navigation-menu {
-    
     display: flex;
     justify-content:center;
     width:100%;
     min-height:30%;
-    
-    
+    padding-bottom:3%;
 }
 
 .navigation-menu ul li{
@@ -70,11 +66,15 @@ a {
 
 
 .main-image img{
-    padding-top:1%;
+    padding-top:2%;
+    padding-bottom:3%;
     display:flex;
     width:90%;
     height:75%;
     margin:auto;
+}
+
+
 }
 
 .main-image img:hover{
@@ -132,3 +132,11 @@ a {
     color: var(--secondarycolor);
     font-size: var(--mainfont);
 }
+
+#first-project:focus {
+    padding-top:2%;
+    padding-bottom:3%;
+    display:flex;
+    width:100%;
+    height:100%;
+    margin:auto;
