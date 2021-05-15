@@ -1,37 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/reset.css" type="text/css" rel="stylesheet" />
-    <link href="assets/portfolio_styling.css" type="text/css" rel="stylesheet" />
-    	
-    <title>Jason Ma - Portfolio</title>
-</head>
-<body>
+    <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link href="assets/reset.css" type="text/css" rel="stylesheet" />
+                    <link href="assets/portfolio_styling.css" type="text/css" rel="stylesheet" />
+                        
+                    <title>Jason Ma - Portfolio</title>
+                </head>
+        <body>
 
-    <header class="introduction-banner">
-        <h1> Portfolio </h1>
-        <nav class="navigation-menu">
-            <ul>
-                <li class= "navigation-button"><a href="index.html"> Home </a></li>
-                <li class= "navigation-button"><a href="#project-section"> Projects </a></li>
-                <li class= "navigation-button"><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LinkedIn </a></li>
-                <li class= "navigation-button"><a href="#contact-section"> Contact </a></li>
-            </ul>
-        </nav> 
-    </header>
+<!-- So uh. This section of the webpage just holds the navigation and Ul lI, clicking on one of the links below
+allows the webpage to "scroll"...down to the specified ID tag-->
+            <header class="introduction-banner">
+                <h1> Portfolio </h1>
+                <nav class="navigation-menu">
+                    <ul>
+                        <li class= "navigation-button"><a href="index.html"> Home </a></li>
+                        <li class= "navigation-button"><a href="#project-section"> Projects </a></li>
+                        <li class= "navigation-button"><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LinkedIn </a></li>
+                        <li class= "navigation-button"><a href="#contact-section"> Contact </a></li>
+                    </ul>
+                </nav> 
+            </header>
 
-    <section class= "main-image">
-        <img src="assets/images/JasonMaBanner.jpg">
-    </section>
+<!-- I had a choice of using an image of myself, or using a meme of Omniman "Think mark think". I shoulda chosen the meme...-->
+<!-- Basically the section-main-image is a universal container for all images later found in the website-->
+            <section class= "main-image">
+                <img src="assets/images/JasonMaBanner.jpg" alt="An image of an totally unassuming dude.">
+            </section>
 
-    <section class = "horizontal-content">
-        <h3> DEDICATED    RELIABLE     PROFESSIONAL </h3>
-    </section>    
+<!-- Horizontal Content is a container that is a template for content...structured horizontally. placeholder-box is a container
+that is also a flexbox, allowing the 4 containers below to respond to media size changes-->
+<!-- These containers are also stuctured as a href links, allowing you to "scroll" to the approriate section-->
+            <section class = "horizontal-content">
+                <h3> DEDICATED    RELIABLE     PROFESSIONAL </h3>
+                <p> Hello, my name is Jason Ma, an dedicated, reliable professional<p>
+                <ul>
+                    <li> Experienced in both private sector and the public sector</li>
+                    <li> Working as a Loan processor, Credit Human</li>
+                    <li> Currently, studying Coding</li>
+                </ul>
+            </section>    
 
-                <section class = middle-section>
+            <section class = middle-section>
 
                     <section class="placeholder-box">
                     <a href = "#project-section2">
@@ -70,56 +83,52 @@
                     
                 </section>
 
+<!-- Another subsection, detailing the coding projects already completed, or WIP. Once again, there are links leading to live
+deployed websites.-->
         
                 <section id="project-section2"> 
 
                     <section id = "first-project" class="horizontal-content">
                             <h3> Horiseon - A Code Retraction </h3>
-                        <div class= "main-image">
+                        <div id ="priority" class= "main-image">
                             <a href="https://jmagic-learner.github.io/Code-Refractor---UWBootCamp/">
-                                    <img class = "priority" src="assets/images/Horiseon_Banner.jpg">
+                                    <img src="assets/images/Horiseon_Banner.jpg" alt="an image of my first project, Code Refractor...">
                             </a>
                         </div>
                     </section>
 
                     <section id ="personal-project"  class="horizontal-content">
-                            <h3> ZENITH HIGHLIGHT </h3> 
+                        <h3> ZENITH HIGHLIGHT </h3> 
                          <div class = "main-image">
                              <a href="http://zenithhighlight.com/">
-                                    <img src="assets/images/ZENITH_HIGHLIGHT_BANNER2.jpg">
+                                <img src="assets/images/ZENITH_HIGHLIGHT_BANNER2.jpg" alt="an image of my miniatures website. Also a source of great pain and confusion">
                             </a>
                         </div>
                     </section>
 
                     <section id = "third-project" class="horizontal-content">
                         <h3> Professional Portfolio </h3> 
-                     <div class = "main-image">
-                         <a href="https://jmagic-learner.github.io/ProfessionalPortfolio">
-                                <img  src="assets/images/placeholder-image.jpg">
-                        </a>
-                    </div>
-                </section>
+                        <div class = "main-image">
+                            <a href="https://jmagic-learner.github.io/ProfessionalPortfolio">
+                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
+                            </a>
+                        </div>
+                    </section>
 
                 </section>
 
+            </section>
 
-
-
-
-
-    </section>
-
+<!--- Ayyy you basically made to the bottom of the webpage. This area is just for my contact info.-->
+<!-- why'd i put my contact info at the bottom of the page....? to show that my nav bar links actaully work lol-->
     <footer id= "contact-section">
         <section class="horizontal-content">
-           
                 <h3> CONTACT </h3> 
                 <ul class = contact-list>
                     <li>Email: MaJason93@gmail.com</li>
                     <li>Phone: 253 389 7521</li>
                 </ul>
-           
-             </section>
-
+         </section>
     </footer>
     
 </body>
