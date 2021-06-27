@@ -3,27 +3,28 @@
                 <head>
                     <meta charset="UTF-8">
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                     <link href="assets/reset.css" type="text/css" rel="stylesheet" />
-                    <link href="assets/portfolio_styling.css" type="text/css" rel="stylesheet" />
-                        
+                    <!--<link href="assets/portfolio_styling.css" type="text/css" rel="stylesheet" /> 
+                    -->
+                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
                     <title>Jason Ma - Portfolio</title>
                 </head>
         <body>
 
 <!-- So uh. This section of the webpage just holds the navigation and Ul lI, clicking on one of the links below
 allows the webpage to "scroll"...down to the specified ID tag-->
-            <header class="introduction-banner">
+            <nav class="introduction-banner">
                 <h1> Portfolio </h1>
-                <nav class="navigation-menu">
+                <section class="navigation-menu">
                     <ul>
                         <li class= "navigation-button"><a href="index.html"> Home </a></li>
-                        <li class= "navigation-button"><a href="#project-section"> Projects </a></li>
+                        <li class= "navigation-button"><a href="projects.html"> Projects </a></li>
                         <li class= "navigation-button"><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LinkedIn </a></li>
                         <li class= "navigation-button"><a href="#contact-section"> Contact </a></li>
                     </ul>
-                </nav> 
-            </header>
+                </section> 
+            </nav>
 
 <!-- I had a choice of using an image of myself, or using a meme of Omniman "Think mark think". I shoulda chosen the meme...-->
 <!-- Basically the section-main-image is a universal container for all images later found in the website-->
@@ -45,6 +46,7 @@ that is also a flexbox, allowing the 4 containers below to respond to media size
             </section>    
 
             <section class = middle-section>
+                
 
                     <section class="placeholder-box">
                     <a href = "#project-section2">
@@ -71,7 +73,13 @@ that is also a flexbox, allowing the 4 containers below to respond to media size
                             
                         </a>
                     </section>
-                   
+
+                    <section class="placeholder-box">
+                        <a href=#first-project>
+                             <h3> Weather Forecaster </h3> 
+                             <p> An project designed to retrieve and display content from OpenWeatherAPI</p>
+                    </a>
+                    </section>
 
                     
                     <section class="placeholder-box">
@@ -115,6 +123,44 @@ deployed websites.-->
                         </div>
                     </section>
 
+                    <section id = "third-project" class="horizontal-content">
+                        <h3> Weather Forecaster </h3> 
+                        <div class = "main-image">
+                            <a href="https://jmagic-learner.github.io/Weather_App/">
+                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
+                            </a>
+                        </div>
+                    </section>
+
+                    <section id = "third-project" class="horizontal-content">
+                        <h3>  Day-Planner </h3> 
+                        <div class = "main-image">
+                            <a href="https://jmagic-learner.github.io/Day-Planner">
+                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
+                            </a>
+                        </div>
+                    </section>
+
+                    <section id = "third-project" class="horizontal-content">
+                        <h3>  Password Generator </h3> 
+                        <div class = "main-image">
+                            <a href="https://github.com/JMagic-Learner/Password-Generator.git">
+                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
+                            </a>
+                        </div>
+                    </section>
+
+                    <section id = "third-project" class="horizontal-content">
+                        <h3>  Weather Application </h3> 
+                        <div class = "main-image">
+                            <a href="https://github.com/JMagic-Learner/Weather_App.git">
+                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
+                            </a>
+                        </div>
+                    </section>
+
+                    
+
                 </section>
 
             </section>
@@ -130,6 +176,9 @@ deployed websites.-->
                 </ul>
          </section>
     </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
 </body>
 </html>
