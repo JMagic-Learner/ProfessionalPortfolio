@@ -12,26 +12,34 @@ var slideshowINDEX = [
 var currentSlide = 0;
 
 
-
-
-
-
-
-
-
-
-function nextSlide() {
-    
+// This tests the arrow function //
+/*
+var nextSlide = (currentSlide) => {
     currentSlide++;
     slideshowINDEX[currentSlide];
     console.log(slideshowINDEX[currentSlide]);
     if (currentSlide >= 4) {
         console.log("The trigger has happened");
         currentSlide = currentSlide - 5;
-       
+
     }
     $("#slideshow-display").attr("src", slideshowINDEX[currentSlide]);
 }
+*/
+
+function nextSlide() {
+
+    currentSlide++;
+    slideshowINDEX[currentSlide];
+    console.log(slideshowINDEX[currentSlide]);
+    if (currentSlide >= 4) {
+        console.log("The trigger has happened");
+        currentSlide = currentSlide - 5;
+
+    }
+    $("#slideshow-display").attr("src", slideshowINDEX[currentSlide]);
+}
+
 
 function prevSlide() {
     currentSlide--;

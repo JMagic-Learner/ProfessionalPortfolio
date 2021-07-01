@@ -67,12 +67,7 @@ h3 {
 
 
 /* global styling for all A tags */
-a {                        
-    font-size: 2.75vw;
-    font-style: Arial;
-    text-decoration:none;
-    color: var(--secondarycolor);
-}
+
 
 .navigation-button {
     padding-top:2.5%;
@@ -154,20 +149,28 @@ a {
     opacity: 80%;
 }
 
+a {                        
+    font-size: 2.75vw;
+    font-style: Arial;
+    text-decoration:none;
+    color: var(--secondarycolor);
+}
+
 /* sets the image of the first project apart from the others */
-/* read me instructions unclear, not sure if it means that on load
-image is bigger, or image is just bigger always 
+/* read me instructions unclear, not sure if it means that on load */
+
 #priority img {
     width:90%;
     height:100%;
 }
 
-#priority img:hover, img:hover {
+#priority:hover{
     padding-top:1%;
     display:flex;
     width:95%;
     height:80%;
 }
+
 
 /* styling specific to contact LI.....really shoulda used a generic tag */
 .contact-list li{
@@ -181,6 +184,11 @@ image is bigger, or image is just bigger always
     flex-direction:row;
     flex-flow:wrap;
     background-color: var(--secondarycolory);
+}
+
+.downloadable{
+    color: var(--secondarycolor);
+    
 }
 
 /*Media query, allowing specific styling when screen width
