@@ -5,8 +5,8 @@
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                     <link href="assets/reset.css" type="text/css" rel="stylesheet" />
-                    <!--<link href="assets/portfolio_styling.css" type="text/css" rel="stylesheet" /> 
-                    -->
+                    <link href="assets/portfolio_styling.css" type="text/css" rel="stylesheet" /> 
+                    <link href="assets/slideshow.css" type="text/css" rel="stylesheet" />
                     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
                     <title>Jason Ma - Portfolio</title>
                 </head>
@@ -14,7 +14,7 @@
 
 <!-- So uh. This section of the webpage just holds the navigation and Ul lI, clicking on one of the links below
 allows the webpage to "scroll"...down to the specified ID tag-->
-            <nav class="introduction-banner">
+            <div class="introduction-banner">
                 <h1> Portfolio </h1>
                 <section class="navigation-menu">
                     <ul>
@@ -24,11 +24,38 @@ allows the webpage to "scroll"...down to the specified ID tag-->
                         <li class= "navigation-button"><a href="#contact-section"> Contact </a></li>
                     </ul>
                 </section> 
-            </nav>
+            </div>
 
 <!-- I had a choice of using an image of myself, or using a meme of Omniman "Think mark think". I shoulda chosen the meme...-->
 <!-- Basically the section-main-image is a universal container for all images later found in the website-->
-            <section class= "main-image">
+
+
+
+<div class="slideshow-gimmick">
+
+
+        <div class="Slide fade">
+           <img  src="assets/images/JasonMaBanner.jpg" alt="An image of an totally unassuming dude.">
+        </div>
+
+
+
+            <!--Here comes some javascript elments, with a being a VAR-->
+            <a class="prev" id="prevButton" >&#10094;</a>
+            <a class="next" id="nextButton" >&#10095;</a>
+
+            <!-- slideshow dots -->
+        
+        <!-- JavaScript Code for Slide controls and behavior -->
+        
+</div>
+
+
+
+
+
+
+<section class= "main-image">
                 <img src="assets/images/JasonMaBanner.jpg" alt="An image of an totally unassuming dude.">
             </section>
 
@@ -75,7 +102,7 @@ that is also a flexbox, allowing the 4 containers below to respond to media size
                     </section>
 
                     <section class="placeholder-box">
-                        <a href=#first-project>
+                        <a href= "https://mohamedmesahel.github.io/Calendar/main.html">
                              <h3> Weather Forecaster </h3> 
                              <p> An project designed to retrieve and display content from OpenWeatherAPI</p>
                     </a>
@@ -93,77 +120,6 @@ that is also a flexbox, allowing the 4 containers below to respond to media size
 
 <!-- Another subsection, detailing the coding projects already completed, or WIP. Once again, there are links leading to live
 deployed websites.-->
-        
-                <section id="project-section2"> 
-
-                    <section id = "first-project" class="horizontal-content">
-                            <h3> Horiseon - A Code Retraction </h3>
-                        <div id ="priority" class= "main-image">
-                            <a href="https://jmagic-learner.github.io/Code-Refractor---UWBootCamp/">
-                                    <img src="assets/images/Horiseon_Banner.jpg" alt="an image of my first project, Code Refractor...">
-                            </a>
-                        </div>
-                    </section>
-
-                    <section id ="personal-project"  class="horizontal-content">
-                        <h3> ZENITH HIGHLIGHT </h3> 
-                         <div class = "main-image">
-                             <a href="http://zenithhighlight.com/">
-                                <img src="assets/images/ZENITH_HIGHLIGHT_BANNER2.jpg" alt="an image of my miniatures website. Also a source of great pain and confusion">
-                            </a>
-                        </div>
-                    </section>
-
-                    <section id = "third-project" class="horizontal-content">
-                        <h3> Professional Portfolio </h3> 
-                        <div class = "main-image">
-                            <a href="https://jmagic-learner.github.io/ProfessionalPortfolio">
-                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
-                            </a>
-                        </div>
-                    </section>
-
-                    <section id = "third-project" class="horizontal-content">
-                        <h3> Weather Forecaster </h3> 
-                        <div class = "main-image">
-                            <a href="https://jmagic-learner.github.io/Weather_App/">
-                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
-                            </a>
-                        </div>
-                    </section>
-
-                    <section id = "third-project" class="horizontal-content">
-                        <h3>  Day-Planner </h3> 
-                        <div class = "main-image">
-                            <a href="https://jmagic-learner.github.io/Day-Planner">
-                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
-                            </a>
-                        </div>
-                    </section>
-
-                    <section id = "third-project" class="horizontal-content">
-                        <h3>  Password Generator </h3> 
-                        <div class = "main-image">
-                            <a href="https://github.com/JMagic-Learner/Password-Generator.git">
-                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
-                            </a>
-                        </div>
-                    </section>
-
-                    <section id = "third-project" class="horizontal-content">
-                        <h3>  Weather Application </h3> 
-                        <div class = "main-image">
-                            <a href="https://github.com/JMagic-Learner/Weather_App.git">
-                                <img  src="assets/images/placeholder-image.jpg" alt="Basically, why have an image for a project...when this website is the project...">
-                            </a>
-                        </div>
-                    </section>
-
-                    
-
-                </section>
-
-            </section>
 
 <!--- Ayyy you basically made to the bottom of the webpage. This area is just for my contact info.-->
 <!-- why'd i put my contact info at the bottom of the page....? to show that my nav bar links actaully work lol-->
@@ -176,9 +132,10 @@ deployed websites.-->
                 </ul>
          </section>
     </footer>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+<script type="text/javascript" src="assets/slideshow.js"></script>
 </body>
 </html>
