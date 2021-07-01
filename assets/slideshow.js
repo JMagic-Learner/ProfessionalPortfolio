@@ -1,5 +1,5 @@
 var slideshowINDEX = [
-    "assets/images/ZENITH_HIGHLIGHT2.jpg",
+    "assets/images/InProgressBanner.jpg",
     "assets/images/LinkedInBanner.jpg",
     "assets/images/JasonMaBanner.jpg",
     "assets/images/InProgressBanner.jpg",
@@ -27,10 +27,10 @@ function nextSlide() {
     console.log(slideshowINDEX[currentSlide]);
     if (currentSlide >= 4) {
         console.log("The trigger has happened");
-        currentSlide = currentSlide - 4;
+        currentSlide = currentSlide - 5;
        
     }
-    $("img").attr("src", slideshowINDEX[currentSlide]);
+    $("#slideshow-display").attr("src", slideshowINDEX[currentSlide]);
 }
 
 function prevSlide() {
@@ -39,7 +39,7 @@ function prevSlide() {
     console.log(slideshowINDEX[currentSlide]);
     if (currentSlide <= 0) {
         console.log("The Trigger has happened");
-        currentSlide = currentSlide + 4;
+        currentSlide = currentSlide + 5;
     }
     $("img").attr("src", slideshowINDEX[currentSlide]);
 }
