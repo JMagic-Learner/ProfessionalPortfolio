@@ -5,8 +5,8 @@ router.get('/' , async (req, res) => {
 res.render('homepage');
 });
 
-router.get('/bio' , async (req,res) => {
-res.render('bio');
+router.get('/profile' , async (req,res) => {
+res.render('profile');
 });
 
 router.get('/projects', async (req,res) => {
