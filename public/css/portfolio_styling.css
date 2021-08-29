@@ -54,7 +54,7 @@ h3 {
     display: flex;
     justify-content:center;
     width:100%;
-    min-height:30%;
+    max-height: 25%;
     padding-bottom:3%;
 }
 
@@ -130,19 +130,22 @@ h3 {
     margin-bottom:2%;
 }
 
-
+.profile-flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .horizontal-card {
-    flex:none;
-    width: 40%;
+    /* flex:none; */
+    width: 30%;
     background-color:var(--complementary);
     box-shadow: 5px 10px;
-    
     text-align:center;
     padding:0.5%;
     border-radius:40px;
-    margin-bottom:1%;
-    margin-top:1%;
+    height: 30%;
+    margin: auto;
 }
 
 .horizontal-card:hover {
@@ -187,7 +190,7 @@ a {
 }
 
 .downloadable{
-    color: var(--secondarycolor);
+    color: var(--maincolor);
     
 }
 
@@ -230,3 +233,14 @@ is adjusted */
 
 }}
 
+.blackLi {
+    color:var(--maincolor);
+    font-size: smaller;
+}
+
+.h1-Ver2 {
+    font-size:xx-large;
+    text-align:center;
+    margin-bottom:1%;
+    color: var(--maincolorr);
+}

@@ -1,15 +1,22 @@
+<h1 class = "h1-Ver2"> Projects </h1>
+
+<section class="profile-flex">
 {{#each application as |applications|}}
-<section class="horizontal-content">
+
+<section class="horizontal-card">
+<a href="{{link}}">
             <h2> {{application_name}} </h2>
             <h2>{{description}}</h2>
-            <div class="main-image">
+            
+            {{!-- <div class="main-image">
                 <a href="http://zenithhighlight.com/">
                     <img id = "priority" src="/images/ZENITH_HIGHLIGHT_BANNER2.jpg">
                 </a>
-            </div>
+            </div> --}}
+</a>
         </section>
 
 {{/each}}
 
 
- 
+ </section> 
