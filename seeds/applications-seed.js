@@ -53,7 +53,7 @@ const applicationData = [
     },
     {
         application_name: 'Project 2 - playlistify',
-        link: "",
+        link: "https://playlistify-pod3.herokuapp.com/",
         description: 'An application where you can add / search/ find songs/albums etc through the spotify API'
     },
 ];
