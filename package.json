@@ -4,9 +4,6 @@
   "description": "A professional portfolio outline for JASON MA",
   "main": "server.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint" : "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "node seeds/seed.js"
