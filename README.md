@@ -24,9 +24,8 @@ If your README is long, add a table of contents to make it easy for users to fin
               
 # Installation
 
-Link to video demonstration how this application works:
-https://drive.google.com/file/d/13Wi25qLBlX8RQuU2vu-ZwW8qSMlAgd3g/view
-              
+Link to video demonstration how this application works: https://drive.google.com/file/d/16dqvt_8-_iU110pS7DmIaL9LhTJcGI9H/view?usp=sharing
+
 
 Step 1.) Git pull / clone this repository down into your local computer. 
 
