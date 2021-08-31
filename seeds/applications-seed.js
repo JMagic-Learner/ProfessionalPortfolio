@@ -38,13 +38,13 @@ const applicationData = [
     },
     {
         application_name: 'Write Some Notes',
-        link: '',
+        link: 'https://jmagic-learner.github.io/Write_Some_Notes/',
         description: 'As a business owner, you want to be able to take down some notes for your everyday processes.'
     },
     {
         application_name: 'Employee_Profile',
         link: 'https://jmagic-learner.github.io/Employee_Profile/',
-        description: 'Browse a SQL Database of SCP foundation employee directory'
+        description: 'Work through a front end ui that displays the relationships of a team'
     },
     {
         application_name: 'Ecommerce-Infrastructure',
@@ -56,6 +56,16 @@ const applicationData = [
         link: "https://playlistify-pod3.herokuapp.com/",
         description: 'An application where you can add / search/ find songs/albums etc through the spotify API'
     },
+    {
+        application_name: 'ReadMe-Generator',
+        link: "https://github.com/JMagic-Learner/ProReadMe-Gen.git",
+        description: 'Generate a readme by following inquirer prompts'
+    },
+    {
+        application_name: 'Employee_Tracker',
+        link: "https://jmagic-learner.github.io/Employee_Tracker/",
+        description: 'Browse the SCP foundation database of employees'
+    }
 ];
 
 const seedApplications = () => Applications.bulkCreate(applicationData);
