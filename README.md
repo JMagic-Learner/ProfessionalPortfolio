@@ -3,6 +3,7 @@
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
 [LIVE DEPLOY](https://JMagic-Learner.github.io/Professional Portfolio - Serverside Edition)
+[Heroku Deploy] https://portfolio-jmagic.herokuapp.com/
 ## Description
 Hello, my name is Jason Ma. This application is called Professional Portfolio - Serverside Edition.
               
