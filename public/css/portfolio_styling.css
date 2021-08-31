@@ -121,7 +121,7 @@ h3 {
 /* styling for the horizontal, blue bars */
 .horizontal-content {
     width:90%;
-    background-color:var(--complementary);
+    background-color:var(--maincolor);
     box-shadow: 5px 10px;
     margin-bottom:1%;
     text-align:center;
