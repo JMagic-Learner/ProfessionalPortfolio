@@ -18,9 +18,9 @@ const loginFormHandler = async (event) => {
     
     if (response.ok) {
       // If successful, redirect the browser to the profile page
-      console.log('If successful, redirect the browser to the profile page');
+      console.log("Redirecting to application submission");
       console.log(response.ok);
-      document.location.replace('/');
+      document.location.replace('/submission');
     } else {
       alert(response.statusText);
     }
