@@ -1,34 +1,43 @@
 {
-  "name": "ProfessionalPortfolio",
-  "version": "1.0.0",
-  "description": "A professional portfolio outline for JASON MA",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js && npm run seed",
-    "seed": "node seeds/seed.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JMagic-Learner/ProfessionalPortfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JMagic-Learner/ProfessionalPortfolio/issues"
-  },
-  "homepage": "https://github.com/JMagic-Learner/ProfessionalPortfolio#readme",
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.3",
-    "express-session": "^1.17.2",
-    "mysql2": "^2.3.0",
-    "pg": "^8.7.1",
-    "sequelize": "^6.6.5"
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.91",
+    "@mui/material": "^5.9.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {}
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=8192 start",
+    "build": "react-scripts --max_old_space_size=8192 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

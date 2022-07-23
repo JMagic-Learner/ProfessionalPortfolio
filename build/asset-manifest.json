@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10fd6c91.css",
+    "main.js": "/static/js/main.d5c09ca2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/JasonMaBanner.jpg": "/static/media/JasonMaBanner.ab2cd7e65c63c292ab56.jpg",
+    "static/media/intro-picture.jpg": "/static/media/intro-picture.7be8cf1d2cda34fcb4c6.jpg",
+    "static/media/work-1.jpg": "/static/media/work-1.4d4e67bcc56d132a6485.jpg",
+    "static/media/work-2.jpg": "/static/media/work-2.4d95e4313d0f62660039.jpg",
+    "static/media/work-5.jpg": "/static/media/work-5.02a19b20735c76801246.jpg",
+    "static/media/overlay-bg.jpg": "/static/media/overlay-bg.6ca4a5c5d5345f4fc1f6.jpg",
+    "static/media/work-6.jpg": "/static/media/work-6.94c5564ed1fa0ec18cae.jpg",
+    "static/media/work-3.jpg": "/static/media/work-3.e0c25c9eaa0afe950232.jpg",
+    "static/media/work-4.jpg": "/static/media/work-4.193607b0a57ebb67215d.jpg",
+    "static/media/intro-bg.jpg": "/static/media/intro-bg.73c37175ba0b271d7678.jpg",
+    "static/media/testimonial-2.jpg": "/static/media/testimonial-2.fbbdbb929c4e1310ba30.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.10fd6c91.css.map": "/static/css/main.10fd6c91.css.map",
+    "main.d5c09ca2.js.map": "/static/js/main.d5c09ca2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10fd6c91.css",
+    "static/js/main.d5c09ca2.js"
+  ]
+}
