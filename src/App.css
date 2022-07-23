@@ -1133,7 +1133,13 @@ a:hover {
   margin:auto;
 }
 
+.timelineCard {
+  transition: background-color 2.5s ease;
+}
 
+.timelineCard:hover {
+  transition: background-color 2.5s ease;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

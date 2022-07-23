@@ -8,11 +8,10 @@ import Background2 from '../../img/intro-picture2.jpg'
 export default function Introduction() {
 
     const [currentText,setCurrentText] = useState("Welcome")
-    const [currentTransition, setCurrentTransition] = useState("new")
-  //  useEffect(()=>{
-  //   setCurrentTransition("new")
-  //   setCurrentText("Frontend Developer")
-  //  }, [])
+    const [currentTransition, setCurrentTransition] = useState("old")
+   useEffect(()=>{
+    setCurrentTransition("new")
+   }, [])
   
  
         
