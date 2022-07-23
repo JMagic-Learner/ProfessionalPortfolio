@@ -18,13 +18,6 @@ export default function Projects(){
         date:"13 June. 2022",
         link:"https://github.com/JMagic-Learner/pat-ui"
       },
-      {
-        title:"MortgageFlex LOS",
-        imageSource: `${Image4}`,
-        category:"Loan Origination Software",
-        date:"10 May 2021",
-        link:""
-      },
         {
           title: "Zenith Highlight",
           imageSource: `${Image1}`,
@@ -38,21 +31,7 @@ export default function Projects(){
           category:"Web Design",
           date:"4 April. 2020",
           link:"https://historian-timeline.herokuapp.com/"
-        },
-          {
-            title:"CMA Generator",
-            imageSource: `${Image5}`,
-            category:"Mobile Application",
-            date:"14 Jan. 2020",
-            link:""
-          }
-          , {
-            title:"Passenger BillBoard",
-            imageSource: `${Image6}`,
-            category:"Commercial Design",
-            date:"25 April. 2018",
-            link:""
-          }
+        }
     ]
 
     

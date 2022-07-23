@@ -43,13 +43,13 @@ export default function ColorsTimeline() {
         <TimelineContent>
           <Card>
             <CardContent>
-              <Typography align="center" variant="h6"> Credit Human - REACT Developer </Typography>
+              <Typography align="center" variant="h6"> Robert Half / Credit Human - Loan Processor </Typography>
               <Typography align="center" variant="h6"> May 2021 - May 2022 </Typography>
               <Typography align="justify"> ● Collaborated with stakeholders to manage loan files and databases and prepare general correspondence.</Typography> 
-              <Typography align="justify"> ● Redesigned/Modernized  MortgageFlex UI to fit MH Lending division requirements.</Typography> 
-              <Typography align="justify"> ● Coordinated with CH Dev-Ops teams in San Antonio to unify and standardized coding and internal documentation. </Typography> 
-              <Typography align="justify"> ● Communicated project status and deployment schedules with loan production department and R/D </Typography>
-              <Typography align="justify"> ● Assisted in legacy upkeep of the Daybreak LOS</Typography>
+              <Typography align="justify"> ● Reviewed loan files for completeness, identified missing documentation and generated condition lists for applicants.</Typography> 
+              <Typography align="justify"> ● Generated loan documents, including flood/tax certificates, notes/security disclosures, escrow instructions etc. </Typography> 
+              <Typography align="justify"> ● Evaulated income sources paystub, W2, 1099-R, Social Securty benefits, annuities etc.</Typography>
+              <Typography align="justify"> ● Audited and funded loans applications.</Typography>
             </CardContent>
           </Card>
         </TimelineContent>
@@ -61,15 +61,16 @@ export default function ColorsTimeline() {
         <TimelineContent>
           <Card>
             <CardContent>
-              <Typography align="center" variant="h6"> Commencement Bay Properties - Front-End Developer </Typography>
+              <Typography align="center" variant="h6"> Commencement Bay Properties - Analyst Administrator (Part Time) </Typography>
               <Typography align="center" variant="h6"> January 2020 - May 2021 </Typography>
-              <Typography align="justify"> ● Collaborated with the investment team to produce an application that mimics RE brokerage firm’s CMA. </Typography>
-              <Typography align="justify"> ● Utilized Zillow API to query and populate comparables based on SqFt, Year, Building style, address, price etc. </Typography>
-              <Typography align="justify"> ● Included functions and methods that users can select to customize their search parameters. </Typography>
-              <Typography align="justify"> ● Dynamic routing via React Router.</Typography>
+              <Typography align="justify"> ● Invested in high-potential real estate properties. </Typography>
+              <Typography align="justify"> ● Oversaw the expenditures for renovations. </Typography>
+              <Typography align="justify"> ● Cross analyzed market trends to optimize final sale price. </Typography>
+              <Typography align="justify"> ● Negotiated with contractors and real estate agents.</Typography>
             </CardContent>
           </Card></TimelineContent>
       </TimelineItem>
+      {/* TSA Agent / ATLAS */}
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="success" />
@@ -77,11 +78,26 @@ export default function ColorsTimeline() {
         <TimelineContent>
           <Card>
             <CardContent>
-              <Typography align="center" variant="h6"> DHS/SEATAC Airport - UI Developer </Typography>
-              <Typography align="center" variant="h6"> April 2018 - November 2020 </Typography>
-              <Typography align="justify"> ● Coordinated with TSA, DHS, Port of Seattle police, FAA and numerous other airline / vendors to help design graphic intensive billboards for SEATAC airport.</Typography>
-              <Typography align="justify"> ● Developed a suite of wireframes for approval and review from both FSD (Federal Security Director) and Port officials. </Typography>
-              <Typography align="justify"> ● Implemented both audio and visual cues on billboards to assist passengers with disabilities. Expanded on 508 - regulation  requirements.</Typography>
+              <Typography align="center" variant="h6"> DHS - Transport Security Agent - ATLAS </Typography>
+              <Typography align="center" variant="h6"> April 2019 - May 2021 </Typography>
+              <Typography align="justify"> ● Coordinated with TSA K9, TSA Inspectors, DHS Police , SeaTac Police, CBP and Port Authority to screen individuals, aircraft, and contractors.</Typography>
+              <Typography align="justify"> ● Operated detecting devices to screen individuals and prevent passage of prohibited articles into restricted areas. </Typography>
+              <Typography align="justify"> ● Reported screening hours and incident data into logs for submission to STSO, maintaining high level of accuracy and detail.</Typography>
+            </CardContent>
+          </Card></TimelineContent>
+      </TimelineItem>
+        {/* Pactera Technologies */}
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="success" />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Card>
+            <CardContent>
+            <Typography align="center" variant="h6"> Pactera Technologies - Junior Data Analyst </Typography>
+            <Typography align="center" variant="h6"> August 2018 - January 2019 </Typography>
+              <Typography> ● Planned and conceived computer systems using information engineering, data modeling and structured analysis. </Typography>
+              <Typography> ● Investigated and addressed SQL system issues to enhance usability and improve functionality.</Typography>
             </CardContent>
           </Card></TimelineContent>
       </TimelineItem>

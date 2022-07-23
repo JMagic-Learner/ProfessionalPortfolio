@@ -23,7 +23,7 @@ export default function Contact() {
       },
       {
         id:3,
-        information: "jmaconsult59@gmail.com",
+        information: "MaJason93@gmail.com",
         icon: "ion-email"
       }
     ]
