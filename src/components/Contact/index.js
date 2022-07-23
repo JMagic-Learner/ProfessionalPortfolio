@@ -62,8 +62,8 @@ export default function Contact() {
         <div className="col-sm-12">
           <div className="contact-mf">
             <div id="contact" className="box-shadow-full">
-              <div className="row">
-                <div className="col-md-6">
+              {/* <div className="row"> */}
+                {/* <div className="col-md-6">
                   <div className="title-box-2">
                   <Typography variant="h4">
                       Contact me!
@@ -107,8 +107,8 @@ export default function Contact() {
                       </div>
                     </form>
                   </div>
-                </div>
-                <div className="col-md-6">
+                </div> */}
+                <div className="marginAUTO ">
                   <div className="title-box-2 pt-4 pt-md-0">
                     <Typography variant="h4">
                       Get in Touch
@@ -141,7 +141,7 @@ export default function Contact() {
                     </ul>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>
