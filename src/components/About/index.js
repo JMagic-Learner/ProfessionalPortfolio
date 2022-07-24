@@ -19,7 +19,7 @@ export default function About(){
                     <div className="about-info">
                       <Typography  className="title-s">Name: Jason Ma </Typography>
                       <Typography  className="title-s">Profile: Front End Developer </Typography>
-                      <Typography  className="title-s">Email: jmaconsult59@gmail.com</Typography>
+                      <Typography  className="title-s">Email: MaJason93@gmail.com </Typography>
                       <Typography  className="title-s">Phone: (253) 389-7521 </Typography>
                     </div>
                   </div>
