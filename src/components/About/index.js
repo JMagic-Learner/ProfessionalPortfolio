@@ -1,5 +1,6 @@
 import React from 'react';
-import Image1 from "../../img/testimonial-2.jpg"
+
+import Background2 from '../../img/intro-picture2.jpg'
 import { Typography } from '@mui/material';
 
 export default function About(){
@@ -11,7 +12,7 @@ export default function About(){
                 <div className="row">
                   <div className="col-sm-6 col-md-5">
                     <div className="about-img">
-                      <img src={Image1} className="img-fluid rounded b-shadow-a" alt=""/>
+                      <img src={Background2} className="img-fluid rounded b-shadow-a" alt=""/>
                     </div>
                   </div>
                   <div className="col-sm-6 col-md-7">
@@ -24,7 +25,7 @@ export default function About(){
                   </div>
                 </div>
                 <div className="skill-mf">
-                  <p className="title-s">Skill</p>
+                  <Typography className=" credits black ">Skill</Typography>
                   <span>HTML</span> <span className="pull-right">95%</span>
                   <div className="progress">
                     <div className="progress-bar" role="progressbar" style={{width: "95%"}} aria-valuenow="85" aria-valuemin="0"

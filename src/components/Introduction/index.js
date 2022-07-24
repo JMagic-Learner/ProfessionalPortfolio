@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material'
 import React, { useEffect , useState} from 'react'
 import Background1 from '../../img/intro-picture.jpg'
-import Background2 from '../../img/intro-picture2.jpg'
+
 
 
 
@@ -17,7 +17,7 @@ export default function Introduction() {
         
      
     
-    return  <div id="home" className={"route bg-image " + `${currentTransition}`} style={{ backgroundImage: `url(${Background2})` }}>
+    return  <div id="home" className={"route bg-image " + `${currentTransition}`} style={{ backgroundImage: `url(${Background1})` }}>
     <div className="overlay-intro"> 
     <div className="intro-content display-table ">
       <div className="table-cell">
