@@ -26,11 +26,11 @@ export default function Projects(){
           link:"https://zenithhighlight.herokuapp.com/"
         },
         {
-          title:"Historian",
+          title:"Exquisite Unlimited (WIP)",
           imageSource: `${Image2}`,
           category:"Web Design",
           date:"4 April. 2020",
-          link:"https://historian-timeline.herokuapp.com/"
+          link:"https://exquisite-unlimited-website.herokuapp.com/"
         }
     ]
 
