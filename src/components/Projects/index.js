@@ -1,12 +1,10 @@
 import { Typography } from '@mui/material'
-import Button from '@mui/material/Button';
+
 import React from 'react'
 import Image1 from '../../img/work-1.jpg'
 import Image2 from '../../img/work-2.jpg'
 import Image3 from '../../img/work-3.jpg'
-import Image4 from '../../img/work-4.jpg'
-import Image5 from '../../img/work-5.jpg'
-import Image6 from '../../img/work-6.jpg'
+
 
 export default function Projects(){
 
@@ -26,10 +24,10 @@ export default function Projects(){
           link:"https://zenithhighlight.herokuapp.com/"
         },
         {
-          title:"Exquisite Unlimited (WIP)",
+          title:"Exquisite Unlimited",
           imageSource: `${Image2}`,
-          category:"Web Design",
-          date:"4 April. 2020",
+          category:"A ecommerce website",
+          date:"3 August. 2022",
           link:"https://exquisite-unlimited-website.herokuapp.com/"
         }
     ]
@@ -64,6 +62,7 @@ export default function Projects(){
                 <div className="row">
                   <div >
                     <Typography variant="h5" align="center">  <a href={item.link} > {item.title}</a></Typography>
+                    <Typography variant="h6" align="center">  <a href={item.link} >  -- Demo Link -- </a></Typography>
                     <div className="w-more">
                       <span className="w-ctegory">{item.category}</span> / <span className="w-date">{item.date}</span>
                     </div>
