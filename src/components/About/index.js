@@ -18,7 +18,7 @@ export default function About(){
                   <div className="col-sm-6 col-md-7">
                     <div className="about-info">
                       <Typography  className="title-s">Name: Jason Ma </Typography>
-                      <Typography  className="title-s">Profile: Front End Developer </Typography>
+                      <Typography  className="title-s">Field: Front End Developer </Typography>
                       <Typography  className="title-s">Email: MaJason93@gmail.com </Typography>
                       <Typography  className="title-s">Phone: (253) 389-7521 </Typography>
                     </div>
@@ -58,22 +58,17 @@ export default function About(){
                 <div className="about-me pt-4 pt-md-0">
                   <div className="title-box-2">
                     <h5 className="title-left">
-                      About me
+                      About
                     </h5>
                   </div>
-                  <Typography variant="h5"> REAL ESTATE </Typography>
-                  <Typography className="black justify">
-                    Starting in 2009 , my father and I began to flip real estate. In addition to my academic studies at FWPA, 
-                    I had the opportunity to experience and help my family in a little venture called Greenville Properties LLC. 
-                    Since then, I studied Real Estate and obtained a WA Real Estate Broker License. 
-                    I am currently an Windermere REALTOR, aiming to incorporate the Zillow API with my real estate background.
-                  </Typography>
                   <Typography variant="h5"> Front-End Developer </Typography>
                   <Typography className="black justify">
-                    Intermediate Front-End developer with background in economics / statistics. 
-                    Certified in full-stsack development for Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
-                    Prioritizes UI design and end-user interactivity. Experienced with team projects for coding, especially in regards to meeting deadlines for assigned tasks. Example projects include an calendar app to record and track nearby events, a project that uses Spotify API to display soundtracks and songs via search, and Historian, a project that utilizes MERN stack and database queries to dynamically render and store historic events. 
-                    I am currently coding an application to streamline Warhammer 40k 9E Objective scoring via MERN and MUI. 
+                    Junior Front-End developer certified in full-stack development with  Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
+                    Prioritizes UI design and end-user interactivity. 
+                    Experienced in following AGILE methodology and working with other developers in team projects. 
+                    Projects are built on a foundation of REACT, JS ES6, and a wide assortment of CSS libraries (MUI-REACT, CSS Grid, Bootstrap). 
+                    Prioritizes UI design and end-user interactivity. Experienced with team projects for coding, especially in regards to meeting deadlines for assigned tasks. 
+                    Familiar with global state management tools such as Redux-Toolkit and Context-API
                   </Typography>
                 </div>
               </div>
