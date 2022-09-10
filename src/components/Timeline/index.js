@@ -104,7 +104,7 @@ export default function ColorsTimeline() {
           >
             <CardContent>
 
-              <Typography align="center" variant="h6" fontSize={"2.0vh"}> Commencement Bay Properties LLC - Developer (Part Time) </Typography>
+              <Typography align="center" variant="h6" fontSize={"2.0vh"}> Commencement Bay Properties LLC - Analyst Administrator (Part Time) </Typography>
               <Typography align="center" variant="h6" fontSize={"2.0vh"}> January 2020 - May 2021 </Typography>
               <Box className="description-timeline">
                 <Typography align="justify" fontSize={"1.5vh"}> ●	Worked with the investment team to produce an application that mimics RE brokerage firm’s CMA. </Typography>
