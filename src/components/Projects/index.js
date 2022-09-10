@@ -20,7 +20,7 @@ export default function Projects(){
           title: "Zenith Highlight",
           imageSource: `${Image1}`,
           category:"A hobby website",
-          date:"13 December. 2021",
+          date:"26 October. 2021",
           link:"https://zenithhighlight.herokuapp.com/"
         },
         {

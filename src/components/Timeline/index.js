@@ -24,7 +24,7 @@ export default function ColorsTimeline() {
       className="timelineCard"
       onMouseEnter={() => setcurrentColor("white")}
       onMouseLeave={() => setcurrentColor("#053e85")}>
-      {/* Robert Half / Credit Human Job Description */}
+
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="primary" />
@@ -40,7 +40,13 @@ export default function ColorsTimeline() {
               <Box className="description-timeline">
                 <Typography align="justify" fontSize={"1.5vh"}> ● Work closely with Product Owners, Analysts and QA in an Agile environment to ensure quality, security and maintenance of applications, and to ensure code meets development standards and guidelines.
                 </Typography>
-                <Typography align="justify" fontSize={"1.5vh"} > ● Develop, document, and advocate SOLID software architecture practices · Contribute to a DevOps culture and development of continuous integration processes and tools.
+                <Typography align="justify" fontSize={"1.5vh"} > ● Develop, document, and advocate SOLID software architecture practices.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ● Led a presentation on GraphQL implementation and usage in Apollo/Client and Apollo/Server.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ●	Deployed GraphQL servers to live production in an extended responsibility with the full-stack developer team.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ● Contribute to a DevOps culture and development of continuous integration processes and tools.
                 </Typography>
                 <Typography align="justify" fontSize={"1.5vh"} > ● Adhering to established methodologies while continuously analyzing processes for improved performance and adaptability.
                 </Typography>
@@ -53,12 +59,8 @@ export default function ColorsTimeline() {
                 <Typography align="justify" fontSize={"1.5vh"}> ● Worked with Context-API and Redux - Toolkit to manage global state
                 </Typography>
                 <Typography align="justify" fontSize={"1.5vh"}> ● Used CSS Grid, MUI-React, Bootstrap to design responsive layouts
-
                 </Typography>
-                <Typography align="justify" fontSize={"1.5vh"}> ● Adhered to established methodologies while continuously analyzing processes for improved performance and adaptability.
-
-
-                </Typography>
+                
 
               </Box>
             </CardContent>
@@ -70,6 +72,7 @@ export default function ColorsTimeline() {
           <TimelineDot color="primary" />
           <TimelineConnector />
         </TimelineSeparator>
+              {/* Robert Half / Credit Human Job Description */}
         <TimelineContent>
           <Card
 
@@ -101,13 +104,22 @@ export default function ColorsTimeline() {
           >
             <CardContent>
 
-              <Typography align="center" variant="h6" fontSize={"2.0vh"}> Commencement Bay Properties - Analyst Administrator (Part Time) </Typography>
+              <Typography align="center" variant="h6" fontSize={"2.0vh"}> Commencement Bay Properties LLC - Developer (Part Time) </Typography>
               <Typography align="center" variant="h6" fontSize={"2.0vh"}> January 2020 - May 2021 </Typography>
               <Box className="description-timeline">
-                <Typography align="justify" fontSize={"1.5vh"}> ● Invested in high-potential real estate properties. </Typography>
-                <Typography align="justify" fontSize={"1.5vh"}> ● Oversaw the expenditures for renovations. </Typography>
-                <Typography align="justify" fontSize={"1.5vh"}> ● Cross analyzed market trends to optimize final sale price. </Typography>
-                <Typography align="justify" fontSize={"1.5vh"}> ● Negotiated with contractors and real estate agents.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ●	Worked with the investment team to produce an application that mimics RE brokerage firm’s CMA. </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ●	Included functions and methods that users can select to customize their search parameters. </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Used POSTman / Insomnia API design platform to test Zillow API queries. </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Designed a mobile application that prioritizes responsive design and ease of use via Bootstrap CDN..</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Implemented Middleware and Thunk in the project to fetch data from the back-end and also to perform RESTFUL services.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Built market estimation logic for properties that did not have enough comparable.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Listened to investor suggestions on how end-user UI should behave in edge cases.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Relied on Express and Node.JS to help facilitate server requests.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Created a backup CMA data store using Redux Toolkit, should investors ever have to estimate fair market value in areas with no internet / WIFI.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Built controlled components that can be easily customizable by-passing user defined props.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Provide value by integrating business rules and content in accordance with requirements.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Work closely with Product Owners, Analysts and QA in an Agile environment to ensure quality, security and maintenance of applications, and to ensure code meets development standards and guidelines.</Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Contribute to a DevOps culture and development of continuous integration processes and tools.</Typography>
               </Box>
             </CardContent>
           </Card></TimelineContent>
