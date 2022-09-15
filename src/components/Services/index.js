@@ -20,7 +20,7 @@ export default function Services() {
     },
   ]
 
-  return <section id="services" className="services-mf route paralax-mf bg-image" style={{backgroundImage: `url(${ContactImage})`}}>
+  return <section id="services" className="services-mf route">
     <div className="container">
       <div className="row">
 

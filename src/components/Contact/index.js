@@ -62,52 +62,6 @@ export default function Contact() {
         <div className="col-sm-12">
           <div className="contact-mf">
             <div id="contact" className="box-shadow-full">
-              {/* <div className="row"> */}
-                {/* <div className="col-md-6">
-                  <div className="title-box-2">
-                  <Typography variant="h4">
-                      Contact me!
-                    </Typography>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" className="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div className="row">
-                        {InputBox.map((item)=>{
-                          return(
-                            <div className="col-md-12 mb-3" key={item.id}>
-                            <div className="form-group">
-                                <input type={item.type} 
-                                       className="form-control" 
-                                       name={item.name} id={item.name} 
-                                       placeholder={item.placeholder} 
-                                       data-rule={item.rule} 
-                                       data-msg={item.message} />
-                            <div className="validation"></div>
-                          </div>
-                        </div>
-                          )
-                        })}
-                        <div className="col-md-12 mb-3">
-                          <div className="form-group">
-                            <textarea className="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div className="validation"></div>
-                          </div>
-                        </div>
-                        <div className="col-md-12">
-                          <Button style={{
-                                  borderRadius: 35,
-                                  }}
-                                  variant="contained"
-                                   type="submit" 
-                                   className="button button-a button-big button-rouded">
-                                   Send Message</Button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div> */}
                 <div className="marginAUTO ">
                   <div className="title-box-2 pt-4 pt-md-0">
                     <Typography variant="h4">
