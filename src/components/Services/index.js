@@ -1,5 +1,4 @@
 import React from 'react'
-import ContactImage from '../../img/JasonMaBanner.jpg'
 export default function Services() {
 
   let HTMLarray = [
