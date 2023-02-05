@@ -35,6 +35,49 @@ export default function ColorsTimeline() {
 
           >
             <CardContent>
+              <Typography align="center" variant="h6" fontSize={"2.0vh"}> Walmart Web - React Developer </Typography>
+              <Typography align="center" variant="h6" fontSize={"2.0vh"}> August 2022 - Present </Typography>
+              <Box className="description-timeline">
+                <Typography align="justify" fontSize={"1.5vh"}> ● Develop features for Walmart Web as a member of Glass-Search-Web team.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ● Coordinated with Orchestration Layer (BE) to solidify GQL contracts between BE services and FE.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ● Implemented a new custom badging for "Walmart Pick" for Search results-page.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ● Converted the existing search query to use @walmart-web/platform's queryBuilder utility.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ● Worked with Swaraj Chattre, Yu you wu, Anil, OL, IOS team, Native team, to create a new scope for Generic page.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"} > ● Converted existing search-container and corresponding item-stack component into tempoModule.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Resolved CI/CD issues via Looper/Jenkins.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Ported existing components over and added Next.Js dynamic loading import functionality.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Utilized Tachyon classes to help fulfil product owner's desired FIGMA specifications on Top Result feature.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Created new CCMs (Cloud Control Management) to lock features prior to production rollout.
+                </Typography>
+                <Typography align="justify" fontSize={"1.5vh"}> ● Participated in A/B testing of features in separate ENV.
+                </Typography>
+
+
+              </Box>
+            </CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
+
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="primary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Card
+
+          >
+            <CardContent>
               <Typography align="center" variant="h6" fontSize={"2.0vh"}> Antra Inc - Front End Developer </Typography>
               <Typography align="center" variant="h6" fontSize={"2.0vh"}> May 2022 - Present </Typography>
               <Box className="description-timeline">
@@ -60,19 +103,20 @@ export default function ColorsTimeline() {
                 </Typography>
                 <Typography align="justify" fontSize={"1.5vh"}> ● Used CSS Grid, MUI-React, Bootstrap to design responsive layouts
                 </Typography>
-                
+
 
               </Box>
             </CardContent>
           </Card>
         </TimelineContent>
       </TimelineItem>
+
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="primary" />
           <TimelineConnector />
         </TimelineSeparator>
-              {/* Robert Half / Credit Human Job Description */}
+        {/* Robert Half / Credit Human Job Description */}
         <TimelineContent>
           <Card
 
@@ -92,6 +136,7 @@ export default function ColorsTimeline() {
           </Card>
         </TimelineContent>
       </TimelineItem>
+
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="primary" />
@@ -124,7 +169,7 @@ export default function ColorsTimeline() {
             </CardContent>
           </Card></TimelineContent>
       </TimelineItem>
-      {/* TSA Agent / ATLAS */}
+   
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="primary" />
@@ -146,7 +191,7 @@ export default function ColorsTimeline() {
             </CardContent>
           </Card></TimelineContent>
       </TimelineItem>
-      {/* Pactera Technologies */}
+
       <TimelineItem >
         <TimelineSeparator>
           <TimelineDot color="primary" />
